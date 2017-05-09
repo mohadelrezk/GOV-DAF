@@ -87,3 +87,15 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+test/
+venv/
+NUIGsentiment/embeddings/
+NUIGsentiment/savedModels/
+inputs/
+log/
+outputs/
+papers/
+*.*~
+mongo_config.py
+twitter_config.py
