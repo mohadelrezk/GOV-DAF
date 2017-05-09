@@ -99,3 +99,4 @@ papers/
 *.*~
 mongo_config.py
 twitter_config.py
+.idea/
