@@ -44,4 +44,13 @@ $ sudo mongod
 
 screen samples
 ==============
-![img](screen_samples/nltk.png)
+![img](screen_samples/s1.png)
+![img](screen_samples/s2.png)
+![img](screen_samples/s3.png)
+![img](screen_samples/s4.png)
+![img](screen_samples/s5.png)
+![img](screen_samples/s6.png)
+![img](screen_samples/s7.png)
+![img](screen_samples/s8.png)
+![img](screen_samples/s9.png)
+![img](screen_samples/s10.png)
