@@ -77,5 +77,5 @@ screen samples
 
 
 Last Update:
-============
+------------
 9 August 2017
