@@ -146,14 +146,14 @@ class MongoTasks:
 
         return cursor
 
-    def run_command_search(self, db, command_name, collection_name,query):
+    def run_command_search(self, collection, command_name,correlation):
         cursor = CursorType
         try:
-            if not query:
+            if not correlation:
                 print "no command_run query provided!"
-            elif query:
-                print query
-                cursor = db.command(command_name,collection_name,search=query, no_cursor_timeout=True)
+            elif correlation:
+                query = {command_name: {"$search": correlation}}
+                cursor = collection.find(query, no_cursor_timeout=True)
                 """
                 db.command('text', 'collection', search='coffee', filter={'about': {'$regex': 'desserts'}}, limit=2,
                            projection={'comments': 1, '_id': 0})
@@ -169,10 +169,15 @@ class MongoTasks:
                 the
                 collection('collection' in this
                 example).
+                
+                 search_this_string = "stuff"
+   print collection.find({"$text": {"$search": search_this_string}}).count()
+
                 """
         except BaseException as exc:
             print exc
             #self.getfromMongo(collection, query)
+
 
         return cursor
 """

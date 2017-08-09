@@ -102,3 +102,4 @@ twitter_config.py
 .idea/
 .DS_Store
 temp.txt
+tweeter_config.py

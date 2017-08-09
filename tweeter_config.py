@@ -1,5 +1,5 @@
-
-consumer_key=""
-consumer_secret=""
-access_token=""
-access_token_secret=""
+app="govdaf1"
+consumer_key="mCtla2F6Bd16QbBODOvneFIcX"
+consumer_secret="JrxuXKQWoLecjW8UNwVOKHGoMiSkVtDj65gIAJPLxpxza86P2l"
+access_token="2297213312-HGWqmevQCsNyzxFVyyWMXpvc8RZOyx2XOE7zzWy"
+access_token_secret="WV9P6Ud7SsQgw670H4HZF8eHZ71NYSRUxMhyrJ3YmoPRw"

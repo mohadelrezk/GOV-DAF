@@ -10,6 +10,12 @@ mongodb installation [one time only]
 
 [2] https://robomongo.org/download [optional]
 
+[3] text indexing (mongo 3.x)
+
+$python mongo_text_indexing.py -h
+$python mongo_text_indexing.py -db tweet_db -col tweet_collection -field field_name
+
+![img](screen_samples/s19.png)
 
 
 Gov-DAF installation [one time only]
@@ -19,6 +25,14 @@ $ virtualenv venv
 $ source venv/bin/activate
 
 $ pip install -r requirements.txt
+
+
+GOVDAF configuration
+--------------------
+tweeter_config.py [setting twitter API access credinalities]
+
+mongo_config.py [setting mongodb host and port]
+
 
 NLTK installation [one time only]
 --------------------
@@ -38,6 +52,9 @@ then choose "popular packages" from the list.
 
 ![img](screen_samples/nltk.png)
 
+
+
+
 Run Gov-Daf
 ------------
 
@@ -51,7 +68,11 @@ $ sudo mongod
 
 [4] run Gov-DAF
 
+$ python GOVDAF.py
+
 [5] print reports
+
+
 
 screen samples
 --------------------

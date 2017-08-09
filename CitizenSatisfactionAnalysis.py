@@ -26,7 +26,7 @@ class CitizenSatisfactionAnalysis:
 
 
     def calculate_predict(self, matrix_analysis_ready):
-            print """not coded yet dummy code"""
+        print "Depricated!"
 
     def calculate_predict_satisfaction(self, matrix_analysis_ready):
 
@@ -175,7 +175,7 @@ class Correlation_cell:
         #building mongo query for related tweets
         #text = "\"" + self.term_A +"\" " +"\""+self.term_B + "\""
         #q= {"search": text}
-        q2= "\"policy\" \"l\""
+        q2= "\"a\" \"b\""
 
         return q2 #text
 

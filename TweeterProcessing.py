@@ -58,4 +58,6 @@ class TwitterProcessing:
 
 x = TwitterProcessing()
 x.run("test_policy","policy_analysis2")
+print ("Public Policy related tweets collected and pushed to mogodb Succefully!")
+
 
