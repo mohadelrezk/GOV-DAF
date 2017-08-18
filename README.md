@@ -1,8 +1,8 @@
 GOV-DAF
 =========
 
-Government Satisfaction Analysis Framework
-*initial commits (work on progress)
+Government Satisfaction Analysis Framework  [Part of Masters Thesis awarded from Alexandria University, Egypt]
+
 
 mongodb installation [one time only]
 --------------------
@@ -99,4 +99,5 @@ screen samples
 
 Last Update:
 ------------
-9 August 2017
+19 August 2017
+*initial commits (work on progress)
